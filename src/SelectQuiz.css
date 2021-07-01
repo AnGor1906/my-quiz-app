@@ -1,0 +1,50 @@
+.select-buttons {
+    margin: 10px;
+}
+
+.btnforlink {
+    color: #f5deb3;
+    background-color: rgb(78, 77, 77);
+    text-decoration: none;
+    border-radius: 150px;
+    padding: 15px 55px;
+    margin-bottom: 20px;
+    font-size: 18px;
+}
+
+.btnforlink:hover {
+    /* background-color: rgb(78, 77, 77); */
+    background-color: #323538;
+    color: rgb(78, 77, 77);
+    background-color: #f5deb3;
+    font-size: 26px;
+    padding: 5px 100px;
+}
+
+.select-text {
+    color: #ddc89d;
+    margin: 50px 220px 80px;
+    font-size: 24px;
+}
+
+.select-text2 {
+    color: #f5deb3;
+    margin-top: 50px;
+    margin-left: 150px;
+}
+
+.li_select-text2 {
+    list-style-type: circle;
+    font-size: 18px;
+}
+
+.card {
+    width: 100%;
+    background-color: rgb(143, 146, 146);
+    margin: 0px 1px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #f5deb3;
+    text-decoration: none;
+}

@@ -1,38 +1,76 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
+    html {
+        background-color: #323538;
+    }
+    
+    .App {
+        display: flex;
+        width: auto;
+        display: flex;
+        flex-direction: column;
+        list-style-type: none;
+        background-color: #323538;
+        margin: 50px 100px;
+        font-family: cursive;
+        font-weight: 300;
+    }
+    
+    .home {
+        background-color: #323538;
+        color: #f5deb3;
+        margin: 40px 150px;
+    }
+    
+    .formainH {
+        margin-left: 100px;
+        color: #86c232;
+    }
+    
+    .formain {
+        font-size: 20px;
+        list-style-type: square;
+    }
+    
+    .forlink {
+        text-decoration: none;
+        font-size: 18px;
+        color: #86c232;
+    }
+    
+    .for-span {
+        text-shadow: lightsalmon 2px;
+    }
+    
+    .cabinet {
+        margin-top: 100px;
+        padding: 20px;
+        border-radius: 50px;
+        width: auto;
+        vertical-align: middle;
+        color: #f5deb3;
+    }
+    
+    .cabinet_span {
+        color: #86c232;
+    }
+    
+    .cabinet_text {
+        margin-left: 300px;
+        margin-bottom: 70px;
+        font-size: 22px;
+    }
+    
+    .cabinet_image {
+        width: 200px;
+        height: 200px;
+    }
+    
+    .cabinet_items {
+        display: flex;
+        flex-direction: row;
+        gap: 50px;
+    }
+    
+    .signout_btn {
+        height: 50px;
+        border-radius: 20px;
+    }

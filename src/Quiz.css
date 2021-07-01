@@ -1,0 +1,82 @@
+.forlink-tomain {
+    list-style-type: none;
+    margin-left: 100px;
+}
+
+.quizz {
+    width: 650px;
+}
+
+button {
+    margin: 5px 125px;
+    padding: 10px 15px;
+    width: 400px;
+    background-color: #6b6e70;
+    color: #86c232;
+    font-size: 18px;
+}
+
+.question__section {
+    color: #f5deb3;
+    font-size: 20px;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.question__count {
+    color: gray;
+    text-align: center;
+}
+
+button:hover {
+    background-color: #474B4F;
+}
+
+.forrandomquizz {
+    margin: 50px 200px;
+}
+
+.section__score {
+    margin-left: 0px;
+}
+
+.section__score_one {
+    margin-left: -100px;
+    color: yellow;
+    text-align: center;
+    font-size: 24px;
+}
+
+.answer__section {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    padding: 15px 0px;
+}
+
+.fail {
+    color: rgb(231, 26, 26);
+    font-size: 26px;
+    font-weight: 400;
+    padding: 10px 10px 10px 50px;
+    text-align: center;
+}
+
+.congrats {
+    color: lightgoldenrodyellow;
+    font-weight: 800;
+    padding: 10px;
+    font-size: 26px;
+    text-align: center;
+}
+
+.progress-bar {
+    background-color: greenyellow;
+    height: 30px;
+    border: 1px solid rgb(143, 207, 117);
+}
+
+.for-progress {
+    margin: 0 20px;
+    border: 1px solid grey;
+}
