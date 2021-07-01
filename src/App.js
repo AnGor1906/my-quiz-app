@@ -2,12 +2,12 @@ import './App.css';
 import React, { useContext } from 'react';
 import { BrowserRouter, Switch, Route } from 'react-router-dom';
 import { Link } from 'react-router-dom';
-import Cabinet from './Cabinet';
-import Nav from './Nav';
-import SelectQuiz from './SelectQuiz';
-import HtmlQuiz from './HtmlQuiz';
-import CssQuiz from './CssQuiz';
-import JavaScriptQuiz from './JavaScriptQuiz';
+import Cabinet from './pages/Cabinet';
+import Nav from './Components/Nav/Nav';
+import SelectQuiz from './pages/SelectQuiz/SelectQuiz';
+import HtmlQuiz from './pages/Quizes/HtmlQuiz';
+import CssQuiz from './pages/Quizes/CssQuiz';
+import JavaScriptQuiz from './pages/Quizes/JavaScriptQuiz';
 
 function App() {
   
