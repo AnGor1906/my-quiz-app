@@ -1,44 +1,31 @@
 import './App.css';
 import React, { useContext } from 'react';
 import { BrowserRouter, Switch, Route } from 'react-router-dom';
-import { Link } from 'react-router-dom';
-import Cabinet from './pages/Cabinet';
+import Cabinet from './Components/Cabinet';
 import Nav from './Components/Nav/Nav';
-import SelectQuiz from './pages/SelectQuiz/SelectQuiz';
-import HtmlQuiz from './pages/Quizes/HtmlQuiz';
-import CssQuiz from './pages/Quizes/CssQuiz';
-import JavaScriptQuiz from './pages/Quizes/JavaScriptQuiz';
+import SelectQuiz from './Components/SelectQuiz/SelectQuiz';
+import HtmlQuiz from './Components/Quizes/HtmlQuiz';
+import CssQuiz from './Components/Quizes/CssQuiz';
+import JavaScriptQuiz from './Components/Quizes/JavaScriptQuiz';
+import Home from './Components/Home/Home';
 
 function App() {
-  
+
   return (
     <BrowserRouter>
       <div className="App">
         <Nav />
-        <Route path='/' exact component={Home} />
-        <Route path='/cabinet' exact component={Cabinet} />
-        <Route path='/selectquiz' exact component={SelectQuiz} />
-        <Route path='/htmlQuiz' exact component={HtmlQuiz} />
-        <Route path='/cssQuiz' exact component={CssQuiz} />
-        <Route path='/javaScriptQuiz' exact component={JavaScriptQuiz} />
-        
-        
+        <Route exact path='/'  component={Home} />
+        <Route exact path='/cabinet'  component={Cabinet} />
+        <Route exact path='/selectquiz'  component={SelectQuiz} />
+        <Route exact path='/htmlQuiz'  component={HtmlQuiz} />
+        <Route exact path='/cssQuiz'  component={CssQuiz} />
+        <Route exact path='/javaScriptQuiz'  component={JavaScriptQuiz} />
+
+
       </div>
     </BrowserRouter>
   );
 }
-const Home = () => (
-  <div className='home'>
-    <h2 className='formainH'>ПРОЙДИ ТЕСТ И УЗНАЙ, НАСКОЛЬКО ТЫ ХОРОШ!</h2>
-    <ul className='formain'>
-      <li> в разделе <b> личный кабинет</b> можно зайти в учетную запись, либо зарегистрироваться.
-      также можно продолжить без регистрации, однако в этом случае у вас не будет доступа
-      к статистике</li>
-      <li>в разделе <b> выбор теста</b> предоставлена возможность определить тему тестировнаия и уровень сложности</li>
-      <li>за каждый правильный ответ вы получаете 1 балл, в конце каждого теста вы получаете свой общий балл.</li>
-      <li>тест считается успешно пройденным, если вы верно ответили <b> более чем на 50%</b> вопросов</li>
-    </ul>
-    <div>УДАЧИ!</div> <div><Link to ='/selectquiz'  className='forlink'><li>пройти тест</li></Link></div>
-  </div>
-)
+
 export default App;

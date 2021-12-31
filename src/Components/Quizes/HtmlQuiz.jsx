@@ -55,6 +55,7 @@ function HTMLQuizz() {
   const widthPercentage = currentQuestion / questions.length * 100
   return (
     <div className="forrandomquizz">
+    
       {showResult
         ? <div className="section__score">
           <div className="section__score_one" > Правильных ответов<b> {score} </b> из {questions.length}
